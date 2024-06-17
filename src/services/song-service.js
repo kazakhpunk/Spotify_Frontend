@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8000/songs';
+const API_URL = 'https://spotifybackend-production-4131.up.railway.app/songs';
 
 export const getSongs = async () => {
   try {
